@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body className="bg-black text-white w-full h-screen flex flex-col justify-center items-center text-xl">
+      <body className="bg-black text-white w-full h-full flex flex-col justify-center items-center">
         <Navigation/>
         {children}</body>
     </html>
