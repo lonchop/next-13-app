@@ -36,7 +36,7 @@
     "**/*.tsx",
     "app/page.tsx",
     ".next/types/**/*.ts"
-, "app/posts/page.tsx"  ],
+, "app/posts/page.tsx", "app/posts/[id]/comments/loading.jsx"  ],
   "exclude": [
     "node_modules"
   ]
