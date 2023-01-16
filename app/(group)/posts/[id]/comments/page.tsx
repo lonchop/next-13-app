@@ -17,7 +17,7 @@ export default async function Post({ params }: { params: any }) {
   const comments: any = await fetchComments(id);
   return (
     <ul className="bg-[#2b2b2b]">
-      {comments.slice(0, 2).map((comment: any) => (
+      {comments.slice(0, 4).map((comment: any) => (
         <li className="p-[20px]" key={comment.id}>
           <div className="mb-[20px]">
             <Image width={80} height={80} alt={comment.email} src={`https://robohash.org/${comment.email}`} />
